@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class PlantPlacesController {
 	
 	
-	
 	@RequestMapping("/start")
 	public String Start() {
 		return "start";
